@@ -1,0 +1,78 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #eec170;
+}
+
+/* this is a comment :) */
+
+h1 {
+    color: #c2095a;
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: #dc4752;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: #dc4752;
+}
+
+h3 {
+    color: #e9664e;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h4 {
+    color: #c2095a;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h5 {
+    color: #01ff00;
+}
+
+h6 {
+    color: cyan;
+}
+
+a {
+    color: #dc4752;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #f58549;
+}
+
+hr {
+    border-top: 2px dashed grey;
+    border-bottom: none;
+}
+
+ul {
+    list-style-type: none;
+    color: rgb(222, 15, 15);
+}
+
+/* ul li {
+    display: inline;
+} */
+
+ol li {
+    font-size: 30px;
+}
