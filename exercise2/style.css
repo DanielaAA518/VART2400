@@ -1,0 +1,99 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F9D030;
+    text-align: left;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: -10px 10px #26DFD0;
+    color: #000000;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: -10px 10px #F62AA0;
+    color: #000000;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: -10px 10px #b8ee30;
+    color: #000000;
+}
+
+h4 {
+    font-size: 40px;
+    line-height: 80%;
+    line-height: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: -10px 10px #F75484;
+    color: #000000;
+}
+
+h5 {
+    font-size: 40px;
+    line-height: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: -10px 10px #6fe780;
+    color: #000000;
+}
+
+h6 {
+    font-size: 40px;
+    line-height: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: -10px 10px #f87d68;
+    color: #000000;
+}
+
+img {
+    border: 1px solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: 10px 10px #000000;
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color:#F9D030;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color:#F9D030;
+  }
