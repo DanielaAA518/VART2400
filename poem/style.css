@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* this means that paddings and borders are included in height and width values */
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    /* margin-top: 10px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    margin-left: 50px; */
+
+    /* to get this effect a different way, use shorthand that works clockwise from the top of the block:
+    margin: 10px 80px 20px 50px;
+            top right bottom left
+
+    margin: 20px; will give you the same margin around the entire block*/
+    margin: 10px;
+    /* padding: 20px 60px 20px 60px; */
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.title {
+    /* background-color: gainsboro; */
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 50px auto 50px auto;
+    padding: 30px 60px 30px 60px;
+    width: 500px;
+    background-color: mediumvioletred;
+}
+
+.first {
+    background-color: lightgreen;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 25;
+}
+
+.second {
+    background-color: thistle;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    /* by default, every postiion value is static,and that means top-left */
+    z-index: 50
+    /* lets you move elements in front of or behind others */
+}
+
+.third {
+    background-color: violet;
+    position: absolute;
+    bottom: 250px;
+    left: 0;
+    z-index: 0;
+}
+
+.fourth {
+    background-color: powderblue;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    z-index: 100;
+}
+
+.content {
+    /* background-color: silver; */
+    height: 900px;
+    width: 900px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    /* this is the parent of first, second, third, fourth. adding position: relative to the parent when the child has position: absolute moves the child element within the boundary of its parent */
+}
+
+.pic1 {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    right: 0;
+}
+
+.pic2 {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.pic3 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pic4 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
