@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: pink;
+    border-style: solid;
+    border-color: mediumvioletred;
+    padding-bottom: 200px;
+}
+
+h1 {
+    background-color: palevioletred;
+    margin: auto 50px auto 50px;
+    padding: auto 50px auto 50px;
+    position: relative;
+    top: 100px;
+    border-style: solid;
+    border-color: mediumvioletred;
+}
+
+p {
+    background-color: #e494ae;
+    margin: auto 50px auto 50px;
+    position: relative;
+    top: 120px;
+    border-style: solid;
+    border-color: mediumvioletred;
+}
