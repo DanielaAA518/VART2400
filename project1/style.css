@@ -1,0 +1,133 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Infini', sans-serif;
+}
+
+#opener {
+    height: 100vh;
+    background-image: url(images/lanny4.jpg);
+    background-repeat:repeat;
+}
+
+.credit {
+    background-color: #d4d49a;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+#about {
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url(images/lanny3.jpg);
+    background-repeat:repeat;
+    padding: 100px;
+}
+
+.blurb {
+    background-color: #e3ddcd;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#quote {
+    width: 100%;
+    background-image: url(images/lanny2.jpg);
+    background-repeat:repeat;
+    padding: 100px;
+}
+
+.quotes {
+    background-color: #517c48;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(images/lanny5.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    align-items: center;
+}
+
+#video-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/lanny6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+iframe {
+    margin: 100px 100px 100px 100px;
+    padding: auto auto auto auto;
+}
+
+h1 {
+    font-size: 80px;
+    color: #2f241e;
+    font-style: italic;
+    margin: 20px 50px auto 50px;
+    padding-right: 100px;
+}
+
+h2 {
+    background-color: #d4d49a;
+    font-size: 50px;
+    color: white;
+    background-color: #d4d49a;
+    font-weight: lighter;
+    margin: auto 50px 20px 50px;
+}
+
+p {
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.blurb1 p {
+    background-color: #e3ddcd;
+    font-size: 20px;
+    color: #1b1b19;
+    font-weight: bolder;
+
+}
+
+.blurb2 p {
+    background-color: #7f7c73;
+    font-size: 20px;
+    color: #cac5b7;
+    font-weight: bolder;
+}
+
+.blurb3 p {
+    background-color: #4d4c46;
+    font-size: 20px;
+    color: #e3ddcd;
+    font-weight: bolder;
+}
+
+.quotes p {
+    font-size: 30px;
+    font-style: italic;
+    color: #e3ddcd;
+    font-weight: lighter;
+}
+
+#reviews {
+    background-color: #fffcf7;
+    font-size: 20px;
+    color: #164a3e;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
