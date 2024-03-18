@@ -1,0 +1,88 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kaisei-tokumin-regular {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.antic-didone-regular {
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: aquamarine;
+    font-family: "Kaisei Tokumin", serif;
+    margin: 50px;
+    padding: 10px;
+    font-size: 50px;
+    box-shadow: 5px 5px indigo;
+}
+
+p {
+    color: aqua;
+    font-family: "Antic Didone", serif;
+    font-size: 30px;
+    padding: 20px 50px 50px 50px;
+    margin: 20px;
+    border: 1px solid;
+    border-color: indigo;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: mediumvioletred;
+      font-family: "Kaisei Tokumin", serif;
+    }
+
+    h1 {
+        color: mistyrose;
+        font-family: "Antic Didone", serif;
+        padding: 10px;
+        font-size: 45px;
+        box-shadow: 5px 5px lavenderblush;
+    }
+
+    p {
+        color: pink;
+        padding: 20px 50px 50px 50px;
+        margin: 20px;
+        font-size: 25px;
+        border: 1px solid;
+        border-color: lavenderblush;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: mediumorchid;
+      font-family: "Kaisei Tokumin", serif;
+    }
+
+    h1 {
+        color: yellow;
+        font-family: "Antic Didone", serif;
+        padding: 10px;
+        font-size: 40px;
+        box-shadow: 5px 5px orange;
+    }
+
+    p {
+        color: greenyellow;
+        padding: 20px 50px 50px 50px;
+        margin: 20px;
+        font-size: 20px;
+        border: 1px solid;
+        border-color: orange;
+    }
+}
