@@ -1,0 +1,223 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+#intro {
+    background-image: url(images/title.jpg);
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.title {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(127, 49, 133, 0.6), rgba(97, 15, 127, 0.6), rgba(1,22,56,0.6));
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5%;
+}
+
+h3 {
+    font-size: 33px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 5%;
+    font-weight: 100;
+}
+
+.btn,
+.startOver {
+    border-radius: 28px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    background: #7f3185;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.btn:hover {
+    background: rgba(1,22,56);
+    text-decoration: none;
+  }
+
+#beginning {
+    background-image: linear-gradient(rgba(1, 13, 35), rgba(2, 24, 82));
+}
+
+#evelynStory {
+    background-image: linear-gradient(rgba(2, 24, 82), rgb(47, 1, 71));
+}
+
+#julianStory {
+    background-image: linear-gradient(rgb(47, 1, 71), rgb(54, 3, 78), rgb(112, 32, 130), rgb(156, 82, 139));
+}
+
+#middle {
+    background-image: linear-gradient( rgb(156, 82, 139), rgb(212, 153, 185)); 
+}
+
+#end {
+    background-image: linear-gradient( rgb(212, 153, 185), rgba(244, 184, 72, 0.44)); 
+}
+
+p {
+    font-size: 24px;
+    line-height: 2;
+    padding-left: 5%;
+}
+
+#evelyn {
+    font-family: 'Quicksand', sans-serif;
+    color: #e8c1c5;
+    text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+
+#evelyn2, 
+#evelyn3,
+#evelyn4,
+#evelyn5,
+#evelyn6,
+#evelyn7,
+#evelyn8,
+#evelyn9
+{
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+    color: #e8c1c5;
+    text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+#evelyn10,
+#evelyn11,
+#evelyn12 {
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+    color: #e8c1c5;
+    text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+#evelyn13,
+#evelyn14
+{
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(156, 82, 139);
+    text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+  
+#julian, 
+#julian2, 
+#julian3,
+#julian4,
+#julian5,
+#julian6,
+#julian7,
+#julian8,
+#julian9,
+#julian10
+{
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+    color: #c0c6da;
+    text-align: right;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#julian11,
+#julian12 {
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(2, 24, 82);
+    text-align: right;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#scriptText,
+#scriptText2,
+#scriptText3,
+#scriptText4,
+#scriptText5,
+#scriptText6,
+#scriptText7 {
+    display: none;
+}
+
+.center {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* use nth of type so that whenever you click on
+a certain person's text, it takes you to/shows you
+the next person's speech (previously display:none,
+becomes display: reveal when you click */
