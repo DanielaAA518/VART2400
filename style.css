@@ -1,34 +1,42 @@
-body {
-    font-family:'Courier New', Courier, monospace;
-    background-color: #eec170;
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
 
-/* this is a comment :) */
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #4c1a57;
+}
 
 h1 {
-    color: #c2095a;
+    color: #f0f600;
     font-size: 60px;
     text-align: center;
+    padding: 30px 10px 10px 10px;
 }
 
 p {
     font-size: 20px;
-    color: #dc4752;
+    color: #ff4ec9;
     text-align: center;
+    padding: 10px 40px 10px 50px;
 }
 
 h2 {
     font-weight: bold;
     font-style: italic;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    color: #dc4752;
+    color: #00e5e8;
+    padding: 10px;
 }
 
 h3 {
     color: #e9664e;
     font-weight: bold;
     font-style: italic;
+    padding: 10px;
 }
 
 h4 {
@@ -45,34 +53,7 @@ h6 {
     color: cyan;
 }
 
-a {
-    color: #dc4752;
-    text-decoration: none;
-}
-
-a:hover {
-    color: orangered;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #f58549;
-}
-
-hr {
-    border-top: 2px dashed grey;
-    border-bottom: none;
-}
-
-ul {
-    list-style-type: none;
-    color: rgb(222, 15, 15);
-}
-
-/* ul li {
-    display: inline;
-} */
-
-ol li {
-    font-size: 30px;
+img {
+    width: 600px;
+    padding: 10px 10px 20px 10px;
 }
