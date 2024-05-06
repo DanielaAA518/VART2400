@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Jersey 25", sans-serif;
+}
+
+#intro {
+    background-image:url(images/season1poster.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#title {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 150px;
+    color: white;
+    z-index: 100000;
+}
+
+h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.center {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100%;
+}
+    
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+   /*  background-image:url(images/season1poster.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+.season1, .season2, .season3, .season4, .season5, .season6 {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.season1:hover {
+    background-image:url(images/season1background.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.6s;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    /* background-image:url(images/season2poster.jpg);
+    background-size: cover;
+    background-position: top; */
+}
+
+.season2:hover {
+    background-image:url(images/season2background.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.6s;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    /* background-image:url(images/season3poster.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+.season3:hover {
+    background-image:url(images/season3background.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.6s;
+}
+
+.div4 {
+    grid-area: 2 / 1 / 3 / 2;
+    /* background-image:url(images/season4poster.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+.season4:hover {
+    background-image:url(images/season4background.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.6s;
+}
+
+.div5 {
+    grid-area: 2 / 2 / 3 / 3;
+    /* background-image:url(images/season5poster.jpg);
+    background-size: cover;
+    background-position: top */
+}
+
+.season5:hover {
+    background-image:url(images/season5background.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.6s;
+}
+
+.div6 {
+    grid-area: 2 / 3 / 3 / 4;
+    /* background-image:url(images/season6poster.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+.season6:hover {
+    background-image:url(images/season6background.png);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.6s;
+}
+
+a {
+    text-decoration: none;
+    z-index: 1000000;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    z-index: 100000;
+}
+
+footer h5 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #FFF;
+}
+
+footer a {
+    color: white;
+    text-decoration:none;
+}
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+hr {
+    color: white;
+    z-index: 100000000;
+}
+    
+.flex-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#season-1 {
+   color: white;
+   background-image:url(images/season1background.png);
+   animation: movebackground 300s infinite;
+}
+
+#season-2 {
+    color: white;
+    background-image:url(images/season2background.png);
+    animation: movebackground 300s infinite;
+}
+
+#season-3 {
+    color: white;
+    background-image:url(images/season3background.png);
+    animation: movebackground 300s infinite;
+}
+
+#season-4 {
+    color: white;
+    background-image:url(images/season4background.png);
+    animation: movebackground 300s infinite;
+}
+
+#season-5 {
+    color: white;
+    background-image:url(images/season5background.png);
+    animation: movebackground 300s infinite;
+}
+
+#season-6 {
+    color: white;
+    background-image:url(images/season6background.png);
+    animation: movebackground 300s infinite;
+}
+
+h3 {
+    color: white;
+    font-size: 150px;
+    text-shadow: 10px 10px #2d2d2e;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover {
+    color: red;
+}
+
+h4 {
+    color: white;
+    font-size: 40px;
+}
+
+.column {
+    width: 50%;
+    margin: 100px 40px 100px 40px;
+}
+
+@keyframes movebackground {
+    0% {background-position: 0 0;}
+    100% {background-position: 10000px 0;}
+}
+
+#season1bios {
+    height: 100vh;
+}
+
+img {
+    height: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+p {
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.row {
+    display: flex;
+    overflow: auto;
+}
+
+iframe {
+    padding: 40px 10px 10px 0px;
+}
